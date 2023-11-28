@@ -1,6 +1,6 @@
 const products = [
     {
-        _id: '1',
+
         name: 'Airpods Wireless  Headphones',
         image: '/images/airpods.jpg',
         description: 'Bluetooth is a short-range wireless technology standard that is used for exchanging data between fixed and mobile devices over short distances and building personal area networks. In the most widely used mode, transmission power is limited to 2.5 milliwatts, giving it a very short range of up to 10 metres.',
@@ -13,7 +13,6 @@ const products = [
 
     },
     {
-        _id: '2',
         name: 'UltraBook Pro X1',
         image: '/images/alexa.jpg',
         description: 'Powerful and lightweight Ultrabook with SSD storage for fast performance. Ideal for professionals and students on the go.',
@@ -25,7 +24,6 @@ const products = [
         numReviews: 20,
     },
     {
-        _id: '3',
         name: 'SmartGuard Pro Security Camera',
         image: '/images/camera.jpg',
         description: 'Keep your home secure with the latest SmartGuard Pro Security Camera. HD video, night vision, and smart integration for a peace of mind.',
@@ -37,7 +35,6 @@ const products = [
         numReviews: 10,
     },
     {
-        _id: '4',
         name: 'GamerXtreme RGB Edition Laptop',
         image: '/images/mouse.jpg',
         description: 'Experience gaming like never before with the GamerXtreme RGB Edition Laptop. High-performance specs and customizable RGB keyboard for immersive gameplay.',
@@ -49,7 +46,6 @@ const products = [
         numReviews: 25,
     },
     {
-        _id: '5',
         name: 'UltraVision 4K UHD Smart TV',
         image: '/images/phone.jpg',
         description: 'Bring the cinema experience to your living room with the UltraVision 4K UHD Smart TV. Smart features, stunning visuals, and immersive audio.',
@@ -61,7 +57,6 @@ const products = [
         numReviews: 18,
     },
     {
-        _id: '6',
         name: 'StealthGamer Wireless Mouse',
         image: '/images/playstation.jpg',
         description: 'Enhance your gaming setup with the StealthGamer Wireless Gaming Mouse. Precise controls, customizable buttons, and ergonomic design for optimal performance.',
@@ -73,7 +68,6 @@ const products = [
         numReviews: 15,
     },
     {
-        _id: '7',
         name: 'FitPro Plus Bluetooth Fitness',
         image: '/images/sample.jpg',
         description: 'Achieve your fitness goals with the FitPro Plus Bluetooth Fitness Tracker. Monitor your activity, heart rate, and receive smart notifications on the go.',
@@ -85,7 +79,6 @@ const products = [
         numReviews: 22,
     },
     {
-        _id: '8',
         name: 'SwiftDrive Portable External SSD',
         image: '/images/screens.png',
         description: 'Transfer files in seconds with the SwiftDrive Portable External SSD. Compact design, high-speed data transfer, and ample storage capacity.',

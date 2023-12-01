@@ -6,8 +6,7 @@ import Message from "../components/Message";
 import { useGetProductsQuery } from "../slices/productApiSlice";
 
 const HomeScreen = () => {
-  const { data: products, isLoading, error } = useGetProductsQuery(); // Add parentheses here
-
+  const { data: products, isLoading, error } = useGetProductsQuery();
   return (
     <>
       {isLoading ? (

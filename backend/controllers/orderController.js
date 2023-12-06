@@ -28,14 +28,21 @@ const addOrderItems = asyncHandler(async (req, res) => {
         )
         const createdOrder = await order.save()
         res.status(200).json(createdOrder)
+        if (order) {
+            res.send(200).json(order)
+        } else {
+            res.status(404)
+            throw new Error('Order not found')
+        }
 
     }
 })
+// @desc Get orders of logged in users
+// @route GET /api/orders/myorder
+// @access Private
 const getMyOrders = asyncHandler(async (req, res) => {
-    // @desc Get orders of logged in users
-    // @route GET /api/orders/myorder
-    // @access Private
-    res.send('get my orders')
+    const order = await Order.findById(req.params.id).populate('user', 'name email');
+
 })
 const getOrderById = asyncHandler(async (req, res) => {
     // @desc get order by id
